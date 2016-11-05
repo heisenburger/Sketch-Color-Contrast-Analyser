@@ -1,0 +1,24 @@
+{
+    "name" : "Contrast Checker",
+    "identifier" : "com.liuliu.contrast",
+    "version" : "2.0.0",
+    "description" : "Check a11y contrast.",
+    "authorEmail" : "liuxliu@google.com",
+    "author" : "Liu Liu",
+    "commands" : [
+      {
+        "name" : "Contrast Checker",
+        "script" : "check.js",
+        "handler" : "onRun",
+        "identifier" : "check"
+      }
+    ],
+    "menu":
+      {
+        "items":
+        [
+          "check"
+        ],
+        "isRoot": true
+      }
+}
