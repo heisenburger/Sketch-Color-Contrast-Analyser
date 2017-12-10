@@ -252,6 +252,7 @@ function onRun(context) {
 		// Check against AA / AAA
 		var result = "❌ AA Failed";
 		var fontSize = 14;
+		var msg = "";
 
 		if (textLayer != null) {
 			var fontSize = textLayer.fontSize();
