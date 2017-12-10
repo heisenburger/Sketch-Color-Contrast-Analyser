@@ -8,6 +8,7 @@
     "commands" : [
       {
         "name" : "Contrast Checker",
+        "shortcut":"control shift c",
         "script" : "check.js",
         "handler" : "onRun",
         "identifier" : "check"

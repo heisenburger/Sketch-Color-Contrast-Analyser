@@ -1,3 +1,5 @@
+// Sketch Plugin: Color Contrast Checker (control shift c)
+// —————————————————————————————————————————
 // Calculates the color contrast of two layers 
 // Read more about the Web Content Accessibility Guidelines 2.0 
 // http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-contrast
