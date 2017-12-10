@@ -253,13 +253,6 @@ function onRun(context) {
 		var result = "❌ AA Failed";
 		var fontSize = 14;
 
-		// add a message when background has alpha
-		var msg = "";
-		if (A1!=1) {
-			msg = " (Do you have transparent background? The formula won't be accurate because it doesn't know what's underneath.)";
-		}
-
-
 		if (textLayer != null) {
 			var fontSize = textLayer.fontSize();
 			var isBold = false;
